@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/teamhephy/pkg/prettyprint"
+	"github.com/deiscc/pkg/prettyprint"
 
-	"github.com/teamhephy/controller-sdk-go/api"
-	"github.com/teamhephy/controller-sdk-go/appsettings"
+	"github.com/deiscc/controller-sdk-go/api"
+	"github.com/deiscc/controller-sdk-go/appsettings"
 )
 
 // LabelsList list app's labels
@@ -125,7 +125,7 @@ func parseLabel(label string) (string, string, error) {
 
 	if len(parts) != 2 || parts[0] == "" || parts[1] == "" {
 		return "", "", fmt.Errorf(`%s is invalid, Must be in format key=value
-Examples: git_repo=https://github.com/teamhephy/workflow team=frontend`, label)
+Examples: git_repo=https://github.com/deiscc/workflow team=frontend`, label)
 	}
 
 	return parts[0], parts[1], nil

@@ -34,7 +34,7 @@ def bootstrap = { String node ->
 }
 
 // Disabling until we have a more sustainable Windows Jenkins Agent plan
-// See https://github.com/deis/jenkins-jobs/issues/351
+// See https://github.com/deiscc/jenkins-jobs/issues/351
 // node(windows) {
 // 	def gopath = pwd() + "\\gopath"
 // 	env.GOPATH = gopath
@@ -72,14 +72,14 @@ node(linux) {
 	}
 }
 
-def test_image = "quay.io/deisci/workflow-cli-dev:${git_commit.take(7)}"
-def mutable_image = 'quay.io/deisci/workflow-cli-dev:latest'
+def test_image = "quay.io/deiscc/workflow-cli-dev:${git_commit.take(7)}"
+def mutable_image = 'quay.io/deiscc/workflow-cli-dev:latest'
 
 node(linux) {
 		stage 'Build and push test container'
 			checkout scm
-			def quayUsername = "deisci+jenkins"
-			def quayEmail = "deis+jenkins@deis.com"
+			def quayUsername = "deiscc+jenkins"
+			def quayEmail = "deis+jenkins@deis.cc"
 			withCredentials([[$class: 'StringBinding',
 												credentialsId: 'c67dc0a1-c8c4-4568-a73d-53ad8530ceeb',
 									 			variable: 'QUAY_PASSWORD']]) {
@@ -229,7 +229,7 @@ Commit: ${env.CHANGE_TITLE}<br/>
 <a href="${env.BUILD_URL}input/">Click here</a> to restart e2e.</p>
 </div>
 </html>
-""", from: 'jenkins@ci.deis.io', subject: 'Workflow CLI E2E Test Failure', to: env.SLACKEMAIL, mimeType: 'text/html'
+""", from: 'jenkins@ci.deis.cc', subject: 'Workflow CLI E2E Test Failure', to: env.SLACKEMAIL, mimeType: 'text/html'
 			}
 			input "Retry the e2e tests?"
 		}

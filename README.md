@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/teamhephy/workflow-cli.svg?branch=master)](https://travis-ci.org/teamhephy/workflow-cli)
+[![Build Status](https://travis-ci.org/deiscc/workflow-cli.svg?branch=master)](https://travis-ci.org/deiscc/workflow-cli)
 
-|![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Anchor_pictogram_yellow.svg/156px-Anchor_pictogram_yellow.svg.png) | Hephy Workflow is the open source fork of Deis Workflow.<br />Please [go here](https://www.teamhephy.com/) for more detail. |
+|![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Anchor_pictogram_yellow.svg/156px-Anchor_pictogram_yellow.svg.png) | Hephy Workflow is the open source fork of Deis Workflow.<br />Please [go here](https://www.deiscc.com/) for more detail. |
 |---:|---|
 | 08/27/2018 | Team Hephy [blog][] comes online |
 | 08/20/2018 | Deis [#community slack][] goes dark |
@@ -18,8 +18,8 @@
 
 # Deis Client
 
-[![Build Status](https://ci.deis.io/buildStatus/icon?job=Deis/workflow-cli/master)](https://ci.deis.io/job/Deis/job/workflow-cli/job/master/)
-[![Go Report Card](https://goreportcard.com/badge/github.com/teamhephy/workflow-cli)](https://goreportcard.com/report/github.com/teamhephy/workflow-cli)
+[![Build Status](https://ci.deis.cc/buildStatus/icon?job=Deis/workflow-cli/master)](https://ci.deis.cc/job/Deis/job/workflow-cli/job/master/)
+[![Go Report Card](https://goreportcard.com/badge/github.com/deiscc/workflow-cli)](https://goreportcard.com/report/github.com/deiscc/workflow-cli)
 [![codebeat badge](https://codebeat.co/badges/05d314a8-ca61-4211-b69e-e7a3033662c8)](https://codebeat.co/projects/github-com-deis-workflow-cli)
 [![codecov](https://codecov.io/gh/deis/workflow-cli/branch/master/graph/badge.svg)](https://codecov.io/gh/deis/workflow-cli)
 
@@ -32,9 +32,9 @@ Download Links:
 - [64 Bit Windows](https://storage.googleapis.com/workflow-cli-master/deis-latest-windows-amd64.exe)
 - [32 Bit Windows](https://storage.googleapis.com/workflow-cli-master/deis-latest-windows-386.exe)
 
-`deis` is a command line utility used to interact with the [Deis](http://deis.io) open source PaaS.
+`deis` is a command line utility used to interact with the [Deis](http://deis.cc) open source PaaS.
 
-Please add any [issues](https://github.com/teamhephy/workflow-cli/issues) you find with this software to the [Deis Workflow CLI Project](https://github.com/teamhephy/workflow-cli).
+Please add any [issues](https://github.com/deiscc/workflow-cli/issues) you find with this software to the [Deis Workflow CLI Project](https://github.com/deiscc/workflow-cli).
 
 ## Installation
 
@@ -166,22 +166,22 @@ To learn more about a command run `deis help <command>`.
 
 ## License
 
-see [LICENSE](https://github.com/teamhephy/workflow-cli/blob/master/LICENSE)
+see [LICENSE](https://github.com/deiscc/workflow-cli/blob/master/LICENSE)
 
-[v2.18]: https://github.com/teamhephy/workflow/releases/tag/v2.18.0
+[v2.18]: https://github.com/deiscc/workflow/releases/tag/v2.18.0
 [k8s-home]: http://kubernetes.io
 [install-k8s]: http://kubernetes.io/gettingstarted/
 [mkdocs]: http://www.mkdocs.org/
-[issues]: https://github.com/teamhephy/workflow/issues
-[prs]: https://github.com/teamhephy/workflow/pulls
-[Deis website]: http://deis.com/
-[blog]: https://blog.teamhephy.info/blog/
-[#community slack]: https://slack.deis.io/
-[slack community]: https://slack.teamhephy.com/
-[v2.18]: https://github.com/teamhephy/workflow/releases/tag/v2.18.0
-[v2.19]: https://web.teamhephy.com
+[issues]: https://github.com/deiscc/workflow/issues
+[prs]: https://github.com/deiscc/workflow/pulls
+[Deis website]: http://deis.cc/
+[blog]: https://blog.deiscc.info/blog/
+[#community slack]: https://slack.deis.cc/
+[slack community]: https://slack.deiscc.com/
+[v2.18]: https://github.com/deiscc/workflow/releases/tag/v2.18.0
+[v2.19]: https://web.deiscc.com
 [v2.19.0]: https://gist.github.com/Cryptophobia/24c204583b18b9fc74c629fb2b62dfa3/revisions
-[v2.19.1]: https://github.com/teamhephy/workflow/releases/tag/v2.19.1
-[v2.19.2]: https://github.com/teamhephy/workflow/releases/tag/v2.19.2
-[v2.19.3]: https://github.com/teamhephy/workflow/releases/tag/v2.19.3
-[v2.19.4]: https://github.com/teamhephy/workflow/releases/tag/v2.19.4
+[v2.19.1]: https://github.com/deiscc/workflow/releases/tag/v2.19.1
+[v2.19.2]: https://github.com/deiscc/workflow/releases/tag/v2.19.2
+[v2.19.3]: https://github.com/deiscc/workflow/releases/tag/v2.19.3
+[v2.19.4]: https://github.com/deiscc/workflow/releases/tag/v2.19.4

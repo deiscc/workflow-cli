@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/teamhephy/controller-sdk-go/api"
-	"github.com/teamhephy/controller-sdk-go/appsettings"
+	"github.com/deiscc/controller-sdk-go/api"
+	"github.com/deiscc/controller-sdk-go/appsettings"
 )
 
 // RoutingInfo provides information about the status of app routing.

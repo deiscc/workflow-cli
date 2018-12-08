@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/teamhephy/controller-sdk-go/api"
+	"github.com/deiscc/controller-sdk-go/api"
 )
 
 // Commander is interface definition for running commands

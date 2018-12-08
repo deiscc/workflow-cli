@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/teamhephy/controller-sdk-go"
-	"github.com/teamhephy/workflow-cli/settings"
+	"github.com/deiscc/controller-sdk-go"
+	"github.com/deiscc/workflow-cli/settings"
 )
 
 // TestServer represents a test HTTP server along with a path to a config file

@@ -12,9 +12,9 @@ import (
 	"testing"
 
 	"github.com/arschles/assert"
-	"github.com/teamhephy/controller-sdk-go/api"
-	"github.com/teamhephy/workflow-cli/pkg/testutil"
-	"github.com/teamhephy/workflow-cli/settings"
+	"github.com/deiscc/controller-sdk-go/api"
+	"github.com/deiscc/workflow-cli/pkg/testutil"
+	"github.com/deiscc/workflow-cli/settings"
 )
 
 func TestGetKey(t *testing.T) {

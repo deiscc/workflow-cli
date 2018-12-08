@@ -6,7 +6,7 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/teamhephy/controller-sdk-go/builds"
+	"github.com/deiscc/controller-sdk-go/builds"
 )
 
 // BuildsList lists an app's builds.

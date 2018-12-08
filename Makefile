@@ -1,5 +1,5 @@
 # the filepath to this repository, relative to $GOPATH/src
-repo_path = github.com/teamhephy/workflow-cli
+repo_path = github.com/deiscc/workflow-cli
 
 HOST_OS := $(shell uname)
 ifeq ($(HOST_OS),Darwin)
@@ -13,7 +13,7 @@ GIT_TAG ?= $(shell git describe --abbrev=0 --tags)
 REVISION ?= $(shell git rev-parse --short HEAD)
 
 REGISTRY ?= quay.io/
-IMAGE_PREFIX ?= deisci
+IMAGE_PREFIX ?= deiscc
 IMAGE := ${REGISTRY}${IMAGE_PREFIX}/workflow-cli-dev:${REVISION}
 
 BUILD_OS ?=linux darwin windows

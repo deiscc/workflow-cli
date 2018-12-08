@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	deis "github.com/teamhephy/controller-sdk-go"
-	"github.com/teamhephy/workflow-cli/pkg/git"
-	"github.com/teamhephy/workflow-cli/settings"
+	deis "github.com/deiscc/controller-sdk-go"
+	"github.com/deiscc/workflow-cli/pkg/git"
+	"github.com/deiscc/workflow-cli/settings"
 )
 
 var defaultLimit = -1

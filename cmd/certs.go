@@ -8,10 +8,10 @@ import (
 
 	"github.com/olekukonko/tablewriter"
 
-	"github.com/teamhephy/controller-sdk-go"
-	"github.com/teamhephy/controller-sdk-go/certs"
-	dtime "github.com/teamhephy/controller-sdk-go/pkg/time"
-	"github.com/teamhephy/workflow-cli/settings"
+	"github.com/deiscc/controller-sdk-go"
+	"github.com/deiscc/controller-sdk-go/certs"
+	dtime "github.com/deiscc/controller-sdk-go/pkg/time"
+	"github.com/deiscc/workflow-cli/settings"
 )
 
 const dateFormat = "2 Jan 2006"

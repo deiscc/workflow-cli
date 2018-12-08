@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/teamhephy/pkg/prettyprint"
+	"github.com/deiscc/pkg/prettyprint"
 
-	"github.com/teamhephy/controller-sdk-go/api"
-	"github.com/teamhephy/controller-sdk-go/config"
+	"github.com/deiscc/controller-sdk-go/api"
+	"github.com/deiscc/controller-sdk-go/config"
 )
 
 // RegistryList lists an app's registry information.

@@ -3,8 +3,8 @@ package cmd
 import (
 	"sort"
 
-	"github.com/teamhephy/controller-sdk-go/api"
-	"github.com/teamhephy/controller-sdk-go/config"
+	"github.com/deiscc/controller-sdk-go/api"
+	"github.com/deiscc/controller-sdk-go/config"
 )
 
 func (d *DeisCmd) printHealthCheck(healthcheck api.Healthchecks) {

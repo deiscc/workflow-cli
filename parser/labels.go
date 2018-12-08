@@ -1,7 +1,7 @@
 package parser
 
 import (
-	"github.com/teamhephy/workflow-cli/cmd"
+	"github.com/deiscc/workflow-cli/cmd"
 	docopt "github.com/docopt/docopt-go"
 )
 
@@ -70,7 +70,7 @@ Usage: deis labels:set [options] <key>=<value>...
 
 Arguments:
   <key> the label key, for example: "git_repo" or "team"
-  <value> the label value, for example: "https://github.com/teamhephy/workflow" or "frontend"
+  <value> the label value, for example: "https://github.com/deiscc/workflow" or "frontend"
 
 Options:
   -a --app=<app>

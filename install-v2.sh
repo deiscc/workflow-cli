@@ -3,10 +3,10 @@
 # Invoking this script:
 #
 # To install the latest stable version:
-# curl https://raw.githubusercontent.com/teamhephy/workflow-cli/master/install-v2.sh | sh
+# curl https://raw.githubusercontent.com/deiscc/workflow-cli/master/install-v2.sh | sh
 #
 # To install a specific released version ($VERSION):
-# curl https://raw.githubusercontent.com/teamhephy/workflow-cli/master/install-v2.sh | sh -s $VERSION
+# curl https://raw.githubusercontent.com/deiscc/workflow-cli/master/install-v2.sh | sh -s $VERSION
 #
 # - download deis cli binary
 # - making sure deis cli binary is executable
@@ -26,7 +26,7 @@ check_platform_arch() {
 
 The Hephy Workflow CLI (deis) is not currently supported on ${PLATFORM}-${ARCH}.
 
-See https://github.com/teamhephy/workflow-cli for more information.
+See https://github.com/deiscc/workflow-cli for more information.
 
 EOF
   fi

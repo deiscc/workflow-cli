@@ -10,9 +10,9 @@ import (
 
 	"github.com/arschles/assert"
 
-	"github.com/teamhephy/workflow-cli/pkg/git"
-	"github.com/teamhephy/workflow-cli/pkg/testutil"
-	"github.com/teamhephy/workflow-cli/settings"
+	"github.com/deiscc/workflow-cli/pkg/git"
+	"github.com/deiscc/workflow-cli/pkg/testutil"
+	"github.com/deiscc/workflow-cli/settings"
 )
 
 type expandURLCases struct {

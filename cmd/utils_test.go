@@ -8,9 +8,9 @@ import (
 	"testing"
 
 	"github.com/arschles/assert"
-	"github.com/teamhephy/controller-sdk-go"
-	"github.com/teamhephy/workflow-cli/pkg/git"
-	"github.com/teamhephy/workflow-cli/settings"
+	"github.com/deiscc/controller-sdk-go"
+	"github.com/deiscc/workflow-cli/pkg/git"
+	"github.com/deiscc/workflow-cli/settings"
 )
 
 func TestLoad(t *testing.T) {

@@ -10,10 +10,10 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/teamhephy/controller-sdk-go/api"
-	"github.com/teamhephy/controller-sdk-go/keys"
-	"github.com/teamhephy/workflow-cli/pkg/ssh"
-	"github.com/teamhephy/workflow-cli/settings"
+	"github.com/deiscc/controller-sdk-go/api"
+	"github.com/deiscc/controller-sdk-go/keys"
+	"github.com/deiscc/workflow-cli/pkg/ssh"
+	"github.com/deiscc/workflow-cli/settings"
 )
 
 // KeysList lists a user's keys.
